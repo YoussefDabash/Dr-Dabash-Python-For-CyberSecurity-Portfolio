@@ -1,0 +1,15 @@
+====================================================================
+============ RECONVAULT ENGAGEMENT REPORT | OP-AGTZWPS2 ============
+====================================================================
+Operator      : Youssef Tamer Dabash (Dr. Dabash) | Target: Horus_Financial_Corp
+Timestamp     : 2026-11-16 09:32:51 (Monday) | Tags: web-recon, red-team, log-audit
+--------------------------------------------------------------------
+  - Unique Subdomains (5) : ['api.horus-corp.eg', 'dev.horus-corp.eg', 'mail.horus-corp.eg', 'portal.horus-corp.eg', 'vpn.horus-corp.eg']
+  - Discovered Emails (3) : ['admin@horus-corp.eg', 'dr.dabash@redteam.org', 'soc@horus-corp.eg']
+  - Leaked API Keys   (2) : ['AKIA1122334455ABC', 'AKIA9876543210ZYX']
+  - IP Traffic (IP, Hits) : [('10.10.14.22', 1), ('10.10.14.88', 1), ('172.16.0.99', 1), ('192.168.1.45', 2)]
+  - Port Metrics (Valid=True) : Min=80 | Max=8443 | Hits=5
+--------------------------------------------------------------------
+  * Finding Severity: High (AWS AKIA Keys Exposed in GET/POST Query)
+  * Recommended Fix: Rotate compromised keys and move tokens to Authorization headers.
+====================================================================

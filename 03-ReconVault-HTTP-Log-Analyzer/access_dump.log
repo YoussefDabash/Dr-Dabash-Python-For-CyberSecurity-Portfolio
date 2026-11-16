@@ -1,0 +1,6 @@
+192.168.1.45 - GET https://portal.horus-corp.eg:8443/login?user=admin@horus-corp.eg [200]
+10.10.14.22 - POST http://dev.horus-corp.eg:8080/api/v1/auth?key=AKIA9876543210ZYX [401]
+172.16.0.99 - GET https://vpn.horus-corp.eg:443/reset?mail=dr.dabash@redteam.org [200]
+192.168.1.45 - GET http://mail.horus-corp.eg:80/inbox?user=admin@horus-corp.eg [200]
+CORRUPTED_LINE_WITHOUT_VALID_DATA_###
+10.10.14.88 - POST https://api.horus-corp.eg:8443/debug?token=AKIA1122334455ABC&mail=soc@horus-corp.eg [500]
